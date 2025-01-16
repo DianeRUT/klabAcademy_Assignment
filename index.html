@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X Homepage Clone</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Left Sidebar -->
+        <aside class="sidebar-left">
+            <div class="logo">X</div>
+            <nav class="menu">
+                <a href="#" class="menu-item"><i class="fa-solid fa-house"></i> Home</a>
+                <a href="#" class="menu-item"><i class="fa-solid fa-hashtag"></i> Explore</a>
+                <a href="#" class="menu-item"><i class="fa-solid fa-bell"></i> Notifications</a>
+                <a href="#" class="menu-item"><i class="fa-solid fa-envelope"></i> Messages</a>
+                <a href="#" class="menu-item"><i class="fa-solid fa-bookmark"></i> Bookmarks</a>
+                <a href="#" class="menu-item"><i class="fa-solid fa-user"></i> Profile</a>
+                <a href="#" class="menu-item"><i class="fa-solid fa-gear"></i> Settings</a>
+            </nav>
+            <button class="btn tweet-btn">Tweet</button>
+        </aside>
+
+        <!-- Middle Content -->
+        <main class="content-middle">
+            <div class="tab-menu">
+                <button class="tab active" id="for-you">For You</button>
+                <button class="tab" id="following">Following</button>
+            </div>
+            <div class="post-box">
+                <div class="post-header">
+                    <img src="img/profile.jpg" alt="User Profile" class="profile-img">
+                    <select class="post-visibility">
+                        <option value="everyone">Everyone</option>
+                        <option value="followers">Followers</option>
+                        <option value="only-me">Only me</option>
+                    </select>
+                </div>
+                <textarea placeholder="What is happening?!"></textarea>
+                <div class="post-reply-info">
+                    <span class="reply-icon">🌍</span> Everyone can reply
+                </div>
+                <hr>
+                <div class="post-actions-bar">
+                    <div class="icons">
+                        <span>📷</span>
+                        <span>🎥</span>
+                        <span>📊</span>
+                        <span>😊</span>
+                        <span>📍</span>
+                    </div>
+                    <button class="post-btn">Post</button>
+                </div>
+            </div>
+            <div class="timeline">
+                <div class="post"><img src="img\1.jpg" alt="Sample Image 1">u got it</div>
+                <div class="post"><img src="img\2.jpg" alt="Sample Image 2">Hello</div>
+                <div class="post"><img src="img\3.jpg" alt="Sample Image 3">Love</div>
+                <div class="post"><img src="img\4.jpg" alt="Sample Image 4">Manifest</div>
+                <div class="post"><img src="img\5.jpg" alt="Sample Image 5">Love</div>
+                <div class="post"><img src="img\6.jpg" alt="Sample Image 6">Hope</div>
+                <div class="post"><img src="img\7.jpg" alt="Sample Image 7">Beautiful</div>
+            </div>
+        </main>
+
+        <!-- Right Sidebar -->
+        <aside class="sidebar-right">
+            <div class="search-bar">
+                <input type="text" placeholder="Search X" class="search-input">
+                <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <div class="trending">
+                <h3>Trending Topics</h3>
+                <ul>
+                    <li>#Topic1</li>
+                    <li>#Topic2</li>
+                    <li>#Topic3</li>
+                </ul>
+            </div>
+            <div class="suggestions">
+                <h3>Who to follow</h3>
+                <ul>
+                    <li>@dianna_rutagengwa</li>
+                    <li>@kiris39</li>
+                    <li>@Umuat</li>
+                </ul>
+            </div>
+        </aside>
+    </div>
+</body>
+</html>
